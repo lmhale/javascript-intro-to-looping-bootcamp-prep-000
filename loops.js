@@ -19,11 +19,10 @@ function whileLoop(num){
   }else{
     console.log('done');
   }
-  
-  
+
+
 
 }
 }
 
 whileLoop(20);
-

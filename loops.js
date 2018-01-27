@@ -30,9 +30,9 @@ function maybeTrue() {
 
 
 function doWhileLoop (array){
-  i = 0;
+  
   do {
-  i --;
+  array.length-1;
 } while (array.length > 0 && maybeTrue());
   return array;
 }

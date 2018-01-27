@@ -12,17 +12,16 @@ function forLoop(array){
 
 
 
+f
 function whileLoop(num){
+  
   while(num >= 0){
-     if (--num){
-       console.log(num);
-  }else{
-    console.log('done');
+     console.log(num);
+     num--;
+     if (num < 0){
+       console.log('done');
+     }
+     
   }
-
-
-
+ 
 }
-}
-
-whileLoop(20);

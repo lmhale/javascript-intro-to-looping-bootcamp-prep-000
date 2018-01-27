@@ -21,5 +21,3 @@ while (n > 0) {
 }
 console.log('done');
 }
-
-

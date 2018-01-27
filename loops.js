@@ -22,4 +22,4 @@ while (n > 0) {
 console.log('done');
 }
 
-whileLoop(20);
+

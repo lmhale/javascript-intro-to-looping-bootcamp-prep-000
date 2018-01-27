@@ -21,3 +21,19 @@ while (countdown > 0) {
 }
 return 'done';
 }
+
+
+
+function maybeTrue() {
+  return Math.random() >= 0.5;
+}
+
+
+function doWhileLoop (array){
+  i = 0;
+  do {
+  i --;
+} while (array.length > 0 && maybeTrue());
+  return array;
+}
+doWhileLoop();
